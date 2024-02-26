@@ -1,0 +1,13 @@
+version: "3"
+services:
+  excelifier-batch-processer:
+    build: .
+    volumes:
+      - ./data_in:/data_in
+      - ./data_out:/data_out
+    environment:
+      - DIR_IN=/data_in
+      - DIR_OUT=/data_out
+      - BEARER_TOKEN=BEARER_TOKEN=your_bearer_token_from_excelifier
+      - NOTIFY_EMAIL=optional_email_address@example.com
+      - PROCESS_INTERVAL=10000
