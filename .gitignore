@@ -1,0 +1,5 @@
+data_in/
+data_out/
+node_modules
+dist
+.env
