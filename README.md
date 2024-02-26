@@ -4,7 +4,7 @@ This application processes PDF files by sending them to an Excelifier API and th
 
 ## Configuration
 
-Create a `.env` file in the root directory with the following variables:
+Create a `.env` file in the root directory (or duplicate `.env.example`) with the following variables:
 
 ```plaintext
 DIR_IN=./data_in
